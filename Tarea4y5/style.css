@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+      
+
+.imgCenter{
+    display: block;
+     margin: 0 auto;
+    height:500px;
+}
+
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3) { 
+  [class*="materialboxed imgCenter"] {
+    height:200px !important;
+    width:250px !important;
+    
+  }
+}
+@media only screen 
+and (device-width :812px  ) 
+and (device-height : 375px) 
+and (-webkit-device-pixel-ratio : 3) { 
+  [class*="materialboxed imgCenter"] {
+    height:200px !important;
+    width:250px !important;
+    
+  }
+}
+@media only screen 
+and (device-width :768px ) 
+and (device-height : 1024px) 
+and (-webkit-device-pixel-ratio : 2) { 
+  [class*="materialboxed imgCenter"] {
+    height:500px !important;
+    width:500px !important;
+    
+  }
+}
+
+.paging10{
+
+ max-width:80%;
+ text-align: center;
+margin:0 auto;
+position: relative;
+text-align:center;
+}
+
+.elPoder2{
+
+max-height:200px ;
+max-width:200px ;
+display:inline-block !important;
+margin: 20px;
+
+}
+.filtro{
+float:right !important;
+  
+}
+
+.elNameIndex{
+  overflow: auto !important;
+  max-height:65px !important;
+}
+
+.elNameAdd{
+overflow: auto !important;
+ max-height:90px !important; 
+}
+thead, tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+  }
+  thead {
+  width: calc( 100% - 1em )
+  }
+  table {
+  width:100%;
+  }
+tbody {
+  display:block;
+  height:180px;
+  overflow:auto;
+  }
+
+  .elLogo{
+    margin-left: 5% !important;
+  }
+
+  @media (pointer:coarse) 
+{
+    [class*="brand-logo fontSize elLogo"] {
+      font-size:100% !important;
+      margin-left: 0% !important;
+    }
+  }
+
+.forms{
+  max-width:100px;
+  text-align: center;
+}
+.modalSize{
+  max-width:500px;
+  overflow: hidden;
+}
