@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+      
+
+.imgCenter{
+    display: block;
+     margin: 0 auto;
+    height:500px;
+}
+@media (pointer:coarse) 
+{
+  .imgCenter{
+    display: block;
+     margin: 0 auto;
+     max-height:200px;
+     overflow: hidden !important;
+}
+  }
+
+
+
+.paging10{
+
+ max-width:80%;
+ text-align: center;
+margin:0 auto;
+position: relative;
+text-align:center;
+}
+
+.elPoder2{
+max-height:230px;
+max-width:200px;
+display:inline-block !important;
+margin: 20px;
+
+}
+.filtro{
+float:right !important;
+  
+}
+
+.elNameIndex{
+  overflow: auto !important;
+  max-height:65px !important;
+}
+
+.elNameAdd{
+overflow: auto !important;
+ max-width:150px !important; 
+ max-height:40px !important; 
+}
+
+
+  .elLogo{
+    margin-left: 5% !important;
+  }
+.laTable{
+  max-height: 300px;
+  overflow: auto;
+}
+
+  @media (pointer:coarse) 
+{
+    [class*="brand-logo fontSize elLogo"] {
+      font-size:100% !important;
+      margin-left: 0% !important;
+    }
+  }
+
+.forms{
+  max-width:100px;
+  text-align: center;
+}
+.modalSize{
+  max-width:500px;
+  overflow: hidden;
+}
+.textDecoration{
+
+color: white !important;
+}
